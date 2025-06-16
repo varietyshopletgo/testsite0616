@@ -130,9 +130,9 @@ header.l-header h1 .logo {
 
 header.l-header ul {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: no wrap;
   margin-left: auto;
-  width: 50%;
+  gap: 20px;
 }
 
 @media (max-width: 480px) {
@@ -140,7 +140,8 @@ header.l-header ul {
     width: 100%;
     padding: 0;
     margin-left: auto;
-    justify-content: flex-end;
+    justify-content: center; 
+    gap: 12px; 
   }
 }
 
